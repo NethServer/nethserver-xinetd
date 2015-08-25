@@ -1,5 +1,5 @@
 Name: nethserver-xinetd
-Version: 0.0.1
+Version: 1.0.0
 Release: 1%{?dist}
 Summary: Conifigure xinetd
 Source: %{name}-%{version}.tar.gz
@@ -31,5 +31,8 @@ rm -rf %{buildroot}
 %doc COPYING
 
 %changelog
+* Tue Aug 25 2015 Davide Principi <davide.principi@nethesis.it> - 1.0.0-1
+- Initial nethserver-xinetd package, for Adagios - Feature #3229 [NethServer]
+
 * Tue Jul 21 2015 Davide Principi <davide.principi@nethesis.it>
 - Initial version
